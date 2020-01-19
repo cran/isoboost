@@ -1,0 +1,17 @@
+# functions
+export(asilb, amilb, csilb, cmilb)
+
+S3method(asilb, default)
+S3method(asilb, formula)
+S3method(amilb, default)
+S3method(amilb, formula)
+S3method(csilb, default)
+S3method(csilb, formula)
+S3method(cmilb, default)
+S3method(cmilb, formula)
+
+#import(Iso, isotone)
+importFrom(stats, complete.cases, lm, nlm, model.frame, predict)
+import(rpart)
+importFrom(Iso, pava)
+importFrom(isotone, gpava)
