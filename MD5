@@ -1,4 +1,4 @@
-ab5c6bdea0dce19f87898dd6dd08094f *DESCRIPTION
+d370eecaa18d18214a8b1f91b31c9334 *DESCRIPTION
 a46c249dc155925fffbfd57ce7caec40 *NAMESPACE
 7e4b5de477804d5ba275bd2518400a82 *R/amilb.R
 8dde4ad429e4ac900817541d229c89ca *R/asilb.R
@@ -9,10 +9,10 @@ a46c249dc155925fffbfd57ce7caec40 *NAMESPACE
 c213a50a9a5f5064be83c63ce8b42600 *R/pavap.R
 fd8e810b75d76dc98ebae7464673a95e *data/motors.rda
 f081f41208f583d3b37c1155d231781b *inst/CITATION
-027da63875f88bd01bd1a1191044b295 *man/amilb.Rd
-76606a805faf4f95d7d46a8c2c0a551b *man/asilb.Rd
-e4092c2abe828019cd31d2493620196f *man/cmilb.Rd
-3174919528996646a6a73215bb5df7d0 *man/csilb.Rd
+09cf237e98aac9a07094c022814b5085 *man/amilb.Rd
+4f19b111cb7472348b5b464931009fd1 *man/asilb.Rd
+65ba5e78a4af4aa1400cba734f6c51f8 *man/cmilb.Rd
+46c65d7240e81caf3e9f173b0335b1f2 *man/csilb.Rd
 c101e7404ea535c2d4a8a72e2c8f37da *man/isoboost-internal.Rd
-f249a002c24efb5f31591dfc58587302 *man/isoboost-package.Rd
+6990bc40ab866f6729a9529bb8fdffee *man/isoboost-package.Rd
 db5ff922ca6dc6772931c920d799352b *man/motors.Rd

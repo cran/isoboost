@@ -38,6 +38,8 @@ A list containing the following components:
 }
 \references{
 Agresti, A. (2010). Analysis of Ordinal Categorical Data, 2nd edition. John Wiley and Sons. New Jersey.
+
+Conde, D., Fernandez, M. A., Rueda, C., and Salvador, B. (2020). Isotonic boosting classification rules. \emph{Advances in Data Analysis and Classification}, 1-25.
 }
 \author{
 David Conde
