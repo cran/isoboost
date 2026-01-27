@@ -13,9 +13,9 @@ Package: isoboost
 
 Type: Package
 
-Version: 1.0.1
+Version: 1.0.2
 
-Date: 2021-05-01
+Date: 2026-01-27
 
 License: GPL-2 | GPL-3
 
@@ -25,7 +25,7 @@ For a complete list of functions with individual help pages, use \code{library(h
 \author{
 David Conde, Miguel A. Fernandez, Cristina Rueda, Bonifacio Salvador
 
-Maintainer: David Conde <dconde@eio.uva.es>
+Maintainer: David Conde <daconrio@gmail.com>
 }
 
 \keyword{ package }

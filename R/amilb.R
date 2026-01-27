@@ -13,7 +13,7 @@ function(formula, data, ...)
         stop("There is no xlearn set.\n\n")
     if(is.null(data))
         stop("There is no xlearn set.\n\n")
-    if(class(data) != "data.frame")
+    if(!is(class(data),"data.frame"))
        stop("data parameter is not a data.frame.\n\n")
     dataset <- model.frame(formula = formula, data = data)
     ylearn <- dataset[, 1]

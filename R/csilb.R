@@ -11,7 +11,7 @@ function(formula, data, ...)
     output$call <- call
     if(missing(data))
 		stop("There is no xlearn set.\n\n")
-    if(class(data) != "data.frame")
+    if(!is(class(data),"data.frame"))
 		stop("data parameter is not a data.frame.\n\n")
     dataset <- model.frame(formula = formula, data = data)
     ylearn <- dataset[, 1]

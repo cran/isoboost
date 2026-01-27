@@ -1,17 +1,17 @@
-citHeader("To cite isoboost in publications use:")
 
-citEntry(entry = "manual",
+bibentry(bibtype = "manual",
+  header       = "To cite isoboost in publications use:",
   title        = "{isoboost}: Isotonic Boosting Classification Rules",
-  author       = personList(as.person("David Conde"),
-                   as.person("Miguel A. Fern\\'{a}ndez"),
-                   as.person("Cristina Rueda"),
-                   as.person("Bonifacio Salvador")),
-  note         = "R package version 1.0.0",
+  author       = c(person("David Conde"),
+                   person("Miguel A. Fern\\'{a}ndez"),
+                   person("Cristina Rueda"),
+                   person("Bonifacio Salvador")),
+  note         = "R package version 1.0.2",
   url          = "https://CRAN.R-project.org/package=isoboost",
 
   textVersion  =
   paste("David Conde, Miguel A. Fernandez, Cristina Rueda, Bonifacio Salvador (2020).",
         "isoboost: Isotonic Boosting Classification Rules.",
-        "R package version 1.0.0.",
+        "R package version 1.0.2.",
         "https://CRAN.R-project.org/package=isoboost")
 )

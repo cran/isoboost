@@ -13,7 +13,7 @@ function(xlearn, ylearn, xtest, mfinal, monotone_constraints, prior, ndigits = 5
         stop("Invalid xtest set.\n\n")
     if(is.null(ylearn))
         stop("ylearn is NULL.\n\n")
-    if(class(ylearn) == "factor")
+    if(is(class(ylearn),"factor"))
     {
         if(sum(suppressWarnings(is.na(as.numeric(levels(ylearn))))) > 0)
             stop("If ylearn is a factor, its levels must be numbers.\n\n")
